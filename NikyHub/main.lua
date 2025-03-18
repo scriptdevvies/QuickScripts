@@ -221,6 +221,9 @@ Autofarm.BorderSizePixel = 0
 Autofarm.Position = UDim2.new(0.177367836, 0, 0.210565001, 0)
 Autofarm.Size = UDim2.new(0.274200499, 0, 0.17193301, 0)
 Autofarm.Image = "http://www.roblox.com/asset/?id=7488932274"
+Autofarm.Activated:Connect(function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/scriptdevvies/QuickScripts/refs/heads/main/NikyHub/Autofarm.lua'),true))() Autofarm
+end)
 
 UICorner_4.CornerRadius = UDim.new(1, 0)
 UICorner_4.Parent = Autofarm
@@ -233,6 +236,9 @@ Infyield.BorderSizePixel = 0
 Infyield.Position = UDim2.new(0.5501405, 0, 0.210565001, 0)
 Infyield.Size = UDim2.new(0.274200439, 0, 0.17193301, 0)
 Infyield.Image = "http://www.roblox.com/asset/?id=130099881051812"
+Infyield.Activated:Connect(function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
 
 UICorner_5.CornerRadius = UDim.new(1, 0)
 UICorner_5.Parent = Infyield
@@ -245,6 +251,9 @@ CMDX.BorderSizePixel = 0
 CMDX.Position = UDim2.new(0.187627405, 0, 0.549245477, 0)
 CMDX.Size = UDim2.new(0.27420041, 0, 0.171932757, 0)
 CMDX.Image = "http://www.roblox.com/asset/?id=14893198015"
+CMDX.Activated:Connect(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source", true))()
+end)
 
 UICorner_6.CornerRadius = UDim.new(1, 0)
 UICorner_6.Parent = CMDX
@@ -257,6 +266,9 @@ Flinggui.BorderSizePixel = 0
 Flinggui.Position = UDim2.new(0.560400188, 0, 0.549245477, 0)
 Flinggui.Size = UDim2.new(0.274200261, 0, 0.171932757, 0)
 Flinggui.Image = "http://www.roblox.com/asset/?id=16054510719"
+Flinggui.Activated:Connect(function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/0Ben1/fe/main/obf_rf6iQURzu1fqrytcnLBAvW34C9N55kS9g9G3CKz086rC47M6632sEd4ZZYB0AYgV.lua.txt'),true))()
+end)
 
 UICorner_7.CornerRadius = UDim.new(1, 0)
 UICorner_7.Parent = Flinggui
