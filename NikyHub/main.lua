@@ -2,6 +2,7 @@
 -- Version: 3.2
 
 -- Instances:
+--t1
 --loadstring(game:HttpGet(('https://pastebin.com/raw/VmtTtrT5'),true))() Autofarm
 --loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))() Infyield
 --loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source", true))() CMD-X
