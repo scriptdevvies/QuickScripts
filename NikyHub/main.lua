@@ -2,6 +2,11 @@
 -- Version: 3.2
 
 -- Instances:
+--loadstring(game:HttpGet(('https://pastebin.com/raw/VmtTtrT5'),true))()
+--loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+--loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source", true))()
+--loadstring(game:HttpGet(('https://raw.githubusercontent.com/0Ben1/fe/main/obf_rf6iQURzu1fqrytcnLBAvW34C9N55kS9g9G3CKz086rC47M6632sEd4ZZYB0AYgV.lua.txt'),true))()
+
 local UDim2_new = UDim2.new
 
 local UserInputService = game:GetService("UserInputService")
