@@ -195,6 +195,35 @@ TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton.TextScaled = true
 TextButton.TextSize = 14.000
 TextButton.TextWrapped = true
+TextButton.Activated:Connect(function()
+	while true do
+		wait(1)
+		local args = {
+			[1] = workspace:WaitForChild("Adminium")
+		}
+
+		game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("MineEvent"):FireServer(unpack(args))
+	end
+
+		while true do
+		wait(1)
+		local args = {
+			[1] = workspace:WaitForChild("Adminium")
+		}
+
+		game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("MineEvent"):FireServer(unpack(args))
+	end
+
+	while true do
+local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new(8,1,1)
+local humanoid = game.Players.LocalPlayer.Character.Humanoid
+humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
+wait(0.1)
+pl.CFrame = location
+wait(3)
+end
+end)
 
 UITextSizeConstraint.Parent = TextButton
 UITextSizeConstraint.MaxTextSize = 39
