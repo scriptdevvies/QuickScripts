@@ -222,7 +222,7 @@ Autofarm.Position = UDim2.new(0.177367836, 0, 0.210565001, 0)
 Autofarm.Size = UDim2.new(0.274200499, 0, 0.17193301, 0)
 Autofarm.Image = "http://www.roblox.com/asset/?id=7488932274"
 Autofarm.Activated:Connect(function()
-loadstring(game:HttpGet(('https://raw.githubusercontent.com/scriptdevvies/QuickScripts/refs/heads/main/NikyHub/Autofarm.lua'),true))() Autofarm
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/scriptdevvies/QuickScripts/refs/heads/main/NikyHub/Autofarm.lua'),true))()
 end)
 
 UICorner_4.CornerRadius = UDim.new(1, 0)
