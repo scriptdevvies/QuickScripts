@@ -1,5 +1,6 @@
 -- Gui to Lua
 -- Version: 3.2
+
 -- Instances:
 local UDim2_new = UDim2.new
 
@@ -117,8 +118,6 @@ function DraggableObject:Disable()
 end
 
 
-
-
 local nIKYHUBBBB = Instance.new("ScreenGui")
 local Makethisdragable = Instance.new("Frame")
 local frame2 = DraggableObject.new(Makethisdragable)
@@ -131,13 +130,13 @@ local UICorner_2 = Instance.new("UICorner")
 local Frame_4 = Instance.new("Frame")
 local Frame_5 = Instance.new("Frame")
 local UICorner_3 = Instance.new("UICorner")
-local textbutton1 = Instance.new("ImageButton")
+local Autofarm = Instance.new("ImageButton")
 local UICorner_4 = Instance.new("UICorner")
-local textbutton2 = Instance.new("ImageButton")
+local Infyield = Instance.new("ImageButton")
 local UICorner_5 = Instance.new("UICorner")
-local textbutton3 = Instance.new("ImageButton")
+local CMDX = Instance.new("ImageButton")
 local UICorner_6 = Instance.new("UICorner")
-local textbutton4 = Instance.new("ImageButton")
+local Flinggui = Instance.new("ImageButton")
 local UICorner_7 = Instance.new("UICorner")
 local TextLabel = Instance.new("TextLabel")
 local UITextSizeConstraint = Instance.new("UITextSizeConstraint")
@@ -162,7 +161,7 @@ Makethisdragable.Parent = nIKYHUBBBB
 Makethisdragable.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Makethisdragable.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Makethisdragable.BorderSizePixel = 0
-Makethisdragable.Position = UDim2.new(0.315920711, 0, 0.104960784, 0)
+Makethisdragable.Position = UDim2.new(0.326302767, 0, 0.104960784, 0)
 Makethisdragable.Size = UDim2.new(0.345425963, 0, 0.788168848, 0)
 
 Frame.Parent = Makethisdragable
@@ -209,53 +208,53 @@ Frame_5.Size = UDim2.new(0.0750373006, 0, 0.999999881, 0)
 UICorner_3.CornerRadius = UDim.new(1, 0)
 UICorner_3.Parent = Frame_5
 
-textbutton1.Name = "textbutton1"
-textbutton1.Parent = Makethisdragable
-textbutton1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-textbutton1.BorderColor3 = Color3.fromRGB(0, 0, 0)
-textbutton1.BorderSizePixel = 0
-textbutton1.Position = UDim2.new(0.177367836, 0, 0.210565001, 0)
-textbutton1.Size = UDim2.new(0.274200499, 0, 0.17193301, 0)
-textbutton1.Image = "http://www.roblox.com/asset/?id=7488932274"
+Autofarm.Name = "Autofarm"
+Autofarm.Parent = Makethisdragable
+Autofarm.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Autofarm.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Autofarm.BorderSizePixel = 0
+Autofarm.Position = UDim2.new(0.177367836, 0, 0.210565001, 0)
+Autofarm.Size = UDim2.new(0.274200499, 0, 0.17193301, 0)
+Autofarm.Image = "http://www.roblox.com/asset/?id=7488932274"
 
 UICorner_4.CornerRadius = UDim.new(1, 0)
-UICorner_4.Parent = textbutton1
+UICorner_4.Parent = Autofarm
 
-textbutton2.Name = "textbutton2"
-textbutton2.Parent = Makethisdragable
-textbutton2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-textbutton2.BorderColor3 = Color3.fromRGB(0, 0, 0)
-textbutton2.BorderSizePixel = 0
-textbutton2.Position = UDim2.new(0.5501405, 0, 0.210565001, 0)
-textbutton2.Size = UDim2.new(0.274200439, 0, 0.17193301, 0)
-textbutton2.Image = "http://www.roblox.com/asset/?id=130099881051812"
+Infyield.Name = "Infyield"
+Infyield.Parent = Makethisdragable
+Infyield.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Infyield.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Infyield.BorderSizePixel = 0
+Infyield.Position = UDim2.new(0.5501405, 0, 0.210565001, 0)
+Infyield.Size = UDim2.new(0.274200439, 0, 0.17193301, 0)
+Infyield.Image = "http://www.roblox.com/asset/?id=130099881051812"
 
 UICorner_5.CornerRadius = UDim.new(1, 0)
-UICorner_5.Parent = textbutton2
+UICorner_5.Parent = Infyield
 
-textbutton3.Name = "textbutton3"
-textbutton3.Parent = Makethisdragable
-textbutton3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-textbutton3.BorderColor3 = Color3.fromRGB(0, 0, 0)
-textbutton3.BorderSizePixel = 0
-textbutton3.Position = UDim2.new(0.187627405, 0, 0.549245477, 0)
-textbutton3.Size = UDim2.new(0.27420041, 0, 0.171932757, 0)
-textbutton3.Image = "http://www.roblox.com/asset/?id=14893198015"
+CMDX.Name = "CMD-X"
+CMDX.Parent = Makethisdragable
+CMDX.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CMDX.BorderColor3 = Color3.fromRGB(0, 0, 0)
+CMDX.BorderSizePixel = 0
+CMDX.Position = UDim2.new(0.187627405, 0, 0.549245477, 0)
+CMDX.Size = UDim2.new(0.27420041, 0, 0.171932757, 0)
+CMDX.Image = "http://www.roblox.com/asset/?id=14893198015"
 
 UICorner_6.CornerRadius = UDim.new(1, 0)
-UICorner_6.Parent = textbutton3
+UICorner_6.Parent = CMDX
 
-textbutton4.Name = "textbutton4"
-textbutton4.Parent = Makethisdragable
-textbutton4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-textbutton4.BorderColor3 = Color3.fromRGB(0, 0, 0)
-textbutton4.BorderSizePixel = 0
-textbutton4.Position = UDim2.new(0.560400188, 0, 0.549245477, 0)
-textbutton4.Size = UDim2.new(0.274200261, 0, 0.171932757, 0)
-textbutton4.Image = "http://www.roblox.com/asset/?id=16054510719"
+Flinggui.Name = "Flinggui"
+Flinggui.Parent = Makethisdragable
+Flinggui.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Flinggui.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Flinggui.BorderSizePixel = 0
+Flinggui.Position = UDim2.new(0.560400188, 0, 0.549245477, 0)
+Flinggui.Size = UDim2.new(0.274200261, 0, 0.171932757, 0)
+Flinggui.Image = "http://www.roblox.com/asset/?id=16054510719"
 
 UICorner_7.CornerRadius = UDim.new(1, 0)
-UICorner_7.Parent = textbutton4
+UICorner_7.Parent = Flinggui
 
 TextLabel.Parent = Makethisdragable
 TextLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
